@@ -39,7 +39,7 @@ public class PositiveTests extends BaseTest {
     @DataProvider
     public Object[][] getData() throws IOException {
 
-        List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir") + "//src//test//java//karthikData//PurchaseOrder.json");
+        List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir") + "//src//test//java//Data//PurchaseOrder.json");
         return new Object[][]{{data.get(0)}, {data.get(1)}};
 
 

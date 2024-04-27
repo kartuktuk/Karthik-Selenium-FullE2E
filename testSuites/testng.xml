@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="All Test Suite">
     <listeners>
-        <listener class-name="BaseTestComponents.Listeners"></listener>
+        <listener class-name="BaseTestComponents.Listeners"/>
     </listeners>
     <test thread-count="5" verbose="2" preserve-order="true" name="Positive Tests">
         <classes>

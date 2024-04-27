@@ -13,7 +13,7 @@ import java.util.List;
 public class DataReader {
     public List<HashMap<String, String>>getJsonDataToMap() throws IOException {
 
-        String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//karthikData//PurchaseOrder.json"), StandardCharsets.UTF_8);
+        String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//Data//PurchaseOrder.json"), StandardCharsets.UTF_8);
 
         //String to Hashmap = Jackson Databind
         ObjectMapper mapper = new ObjectMapper();
