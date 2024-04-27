@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-26T19:44:22 EDT" name="All Test Suite" finished-at="2024-04-26T19:44:53 EDT" duration-ms="31315">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorTests.invalidLogin()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" name="invalidLogin" class="karthikTests.ErrorTests"/>
+        <method signature="ErrorTests.productErrorValidation()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" name="productErrorValidation" class="karthikTests.ErrorTests"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="PositiveTests.submitOrder(java.util.HashMap)[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" name="submitOrder" class="karthikTests.PositiveTests"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-26T19:44:22 EDT" name="Negative Tests" finished-at="2024-04-26T19:44:40 EDT" duration-ms="18097">
+      <class name="karthikTests.ErrorTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:22 EDT" name="launchApplication" finished-at="2024-04-26T19:44:29 EDT" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLogin()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:29 EDT" name="invalidLogin" finished-at="2024-04-26T19:44:30 EDT" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:30 EDT" name="tearDown" finished-at="2024-04-26T19:44:31 EDT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:31 EDT" name="launchApplication" finished-at="2024-04-26T19:44:36 EDT" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:36 EDT" name="productErrorValidation" finished-at="2024-04-26T19:44:40 EDT" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:karthikTests.ErrorTests@8519cb4]" started-at="2024-04-26T19:44:40 EDT" name="tearDown" finished-at="2024-04-26T19:44:40 EDT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- karthikTests.ErrorTests -->
+    </test> <!-- Negative Tests -->
+    <test started-at="2024-04-26T19:44:22 EDT" name="Positive Tests" finished-at="2024-04-26T19:44:53 EDT" duration-ms="31315">
+      <class name="karthikTests.PositiveTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:22 EDT" name="launchApplication" finished-at="2024-04-26T19:44:29 EDT" duration-ms="7247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:29 EDT" name="submitOrder" data-provider="getData" finished-at="2024-04-26T19:44:34 EDT" duration-ms="4992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dumsdumsdums3@, product=ZARA COAT 3, email=dum@dum.dum}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:34 EDT" name="tearDown" finished-at="2024-04-26T19:44:34 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:34 EDT" name="launchApplication" finished-at="2024-04-26T19:44:41 EDT" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:41 EDT" name="submitOrder" data-provider="getData" finished-at="2024-04-26T19:44:46 EDT" duration-ms="4506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dumsdumsdums3@, product=ADIDAS ORIGINAL, email=dums@dum.dum}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:46 EDT" name="tearDown" finished-at="2024-04-26T19:44:46 EDT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:46 EDT" name="launchApplication" finished-at="2024-04-26T19:44:51 EDT" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:51 EDT" name="orderHistoryTest" finished-at="2024-04-26T19:44:53 EDT" depends-on-methods="karthikTests.PositiveTests.submitOrder" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:karthikTests.PositiveTests@5d534f5d]" started-at="2024-04-26T19:44:53 EDT" name="tearDown" finished-at="2024-04-26T19:44:53 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- karthikTests.PositiveTests -->
+    </test> <!-- Positive Tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

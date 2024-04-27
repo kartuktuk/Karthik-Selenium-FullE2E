@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="karthikBaseTestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Negative Tests(failed)" verbose="0">
+    <classes>
+      <class name="karthikTests.ErrorTests">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="productErrorValidation"/>
+        </methods>
+      </class> <!-- karthikTests.ErrorTests -->
+    </classes>
+  </test> <!-- Negative Tests(failed) -->
+  <test thread-count="5" parallel="tests" name="Positive Tests(failed)" verbose="0">
+    <classes>
+      <class name="karthikTests.PositiveTests">
+        <methods>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="launchApplication"/>
+          <include name="orderHistoryTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- karthikTests.PositiveTests -->
+    </classes>
+  </test> <!-- Positive Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
