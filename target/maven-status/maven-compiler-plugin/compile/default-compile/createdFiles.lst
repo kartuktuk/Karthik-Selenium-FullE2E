@@ -1,7 +1,7 @@
-karthikPageObjects/ProductPage.class
-karthikPageObjects/OrderPage.class
-karthikPageObjects/LoginPage.class
-karthikPageObjects/ConfirmationPage.class
-karthikPageObjects/CartPage.class
-karthikAbstractComponents/Abstract.class
-karthikPageObjects/CheckoutPage.class
+PageObjects/LoginPage.class
+PageObjects/ProductPage.class
+PageObjects/OrderPage.class
+PageObjects/CartPage.class
+AbstractComponents/Abstract.class
+PageObjects/ConfirmationPage.class
+PageObjects/CheckoutPage.class
